@@ -7,7 +7,7 @@ int main()
 	bool flag = false;
 	int arr[10],i;
 	FILE *fp;
-	fp = fopen("test001.txt", "r");
+	fp = fopen("test001.txt", "r"); //pass a text file here containing data as "9 10 42 23 91..."
 	if(fp == NULL)
 	{
 		printf("\nFile was not read");
